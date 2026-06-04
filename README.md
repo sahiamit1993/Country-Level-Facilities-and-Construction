@@ -22,49 +22,36 @@ A fully automated **Management Information System (MIS)** built in Excel for the
 ### 🏠 Cover Sheet — Navigation Hub
 > Entry point with analyst info, report metadata, and clickable navigation to all 5 dashboards.
 
-![Cover Sheet](screenshots/final/final_cover.png)
-
 ---
 
 ### 📊 Executive Summary — Senior Leadership View
 > KPI tiles showing total active projects, full-year budget, YTD spend, variance %, and on-time delivery rate. Includes Budget vs Actual bar chart and project status breakdown with risk flags.
 
-![Executive Summary](screenshots/final/final_exec.png)
 
 ---
 
 ### 🏗️ Project Tracker — Full Portfolio Operations View
 > All 12 active APAC F&C projects with auto-calculated variance, variance %, completion data bars, and **RAG (🟢 Green / 🟡 Amber / 🔴 Red)** status auto-assigned by threshold rules.
 
-![Project Tracker](screenshots/final/final_tracker.png)
-
 ---
 
 ### 💰 Budget & Cost MIS — Capex / Opex Tracking
 > Month-by-month Capex and Opex tracking with variance heat map (red = over budget, green = under), savings column, and a 12-month trend line chart comparing budget vs actual.
-
-![Budget & Cost MIS](screenshots/final/final_budget.png)
 
 ---
 
 ### 📈 Performance Analysis — Category & Country Deep-Dive
 > Dual analysis: (1) by project category (Interior Fit-out, New Build, MEP, Space Planning, Renovation) and (2) by country — with efficiency status flags and a pie chart showing spend distribution.
 
-![Performance Analysis](screenshots/final/final_perf.png)
-
 ---
 
 ### 🌏 APAC Regional View — Country Scorecard
 > 10-country APAC scorecard ranking each country on a composite **Country Score** (budget efficiency × completion rate), with automated RAG status and a horizontal bar chart for visual comparison.
 
-![APAC Regional View](screenshots/final/final_apac.png)
-
 ---
 
 ### 📋 Data Repository — Single Source of Truth
 > Master data layer with 12 project records and 60 rows of monthly financial data (12 months × 5 regions). All 5 dashboards pull exclusively from this sheet via SUMIF/COUNTIF formulas.
-
-![Data Repository](screenshots/final/final_data.png)
 
 ---
 
@@ -129,21 +116,6 @@ RES_FC_MIS_Dashboard_AmitKumar.xlsx
 | **Color Convention** | Blue = hardcoded inputs · Black = formula outputs (industry standard) |
 | **Automation** | Entire workbook built programmatically with Python (openpyxl) |
 | **Error Rate** | ✅ Zero formula errors across all 621 formulas (verified with LibreOffice recalc) |
-
----
-
-## 💼 JD Alignment
-
-| JD Requirement | This Project Delivers |
-|---|---|
-| Database Development & Maintenance | Data_Repository as scalable, normalized master data source |
-| Data-Driven Decision Making | KPI tiles, RAG flags, variance thresholds, composite scoring |
-| Data Visualization & Reporting | 5 dashboards · 4 chart types · conditional formatting |
-| Stakeholder Reporting to Global Seniors | Executive Summary built specifically for C-suite/senior leadership view |
-| Advanced Excel proficiency | 621 formulas, pivot-style summaries, professional formatting |
-| APAC / Real Estate domain simulation | 10 APAC countries · F&C project categories · Capex/Opex split |
-| Process Improvement & Simplification | Single source of truth eliminates manual copy-paste reporting |
-| Proactive Analysis | Automated RAG flags surface at-risk projects without manual review |
 
 ---
 
